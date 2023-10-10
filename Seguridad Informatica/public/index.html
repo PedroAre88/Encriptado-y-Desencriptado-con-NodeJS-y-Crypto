@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Desencriptar Archivos</title>
+</head>
+<body>
+  <h1>Desencriptar Archivos PDF</h1>
+
+  <h2>Desencriptado Asimetrico</h2>
+  <form action="/desencriptadoAsimetrico" method="POST" enctype="multipart/form-data">
+    <input type="file" name="pdfAsimetrico" accept="application/pdf">
+    <button type="submit">Desencriptar</button>
+  </form>
+
+  <h2>Desencriptado Simetrico</h2>
+  <form action="/desencriptadoSimetrico" method="POST" enctype="multipart/form-data">
+    <input type="file" name="pdfSimetrico">
+    <button type="submit">Desencriptar</button>
+  </form>
+</body>
+</html>
+
